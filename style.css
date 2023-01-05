@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, "Arial";
+    font-weight: 300;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    padding-bottom: 8%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    padding: 15px;
+    margin-top: 10%;
+    line-height: 1.5cm;
+    border-radius: 25px;
+    background: #ebebeb;
+    box-shadow:  9px 9px 15px #5e5e5e,
+                -9px -9px 15px #ffffff;
+}
+
+input[type="text"]{
+   color: rgb(36, 35, 42);
+   font-size: 16px;
+   line-height: 20px;
+   min-height: 18px;
+   border-radius: 4px;
+   padding: 4px 10px;
+   border: 2px solid transparent;
+   box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+   background: rgb(251, 251, 251);
+   transition: all 0.1s ease 0s;
+}
+
+#todo-button:focus{
+    border: 2px solid rgb(124, 138, 255);
+}
+
+input[type="date"]{
+    padding: 5px;
+    font-size: 12px;
+    background-color:rgb(251, 251, 251);
+    border: 2px solid rgb(142, 142, 142);
+    border-radius: 4px;
+    box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+}
+
+button{
+    font-size: 16px;
+    padding: 8px 5px;
+    border: none;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+}
+
+#todo-button{
+    background-color: rgb(36, 157, 36);
+    transition: background-color 0.5s;
+}
+
+#todo-button:hover{
+    background-color: rgb(49, 200, 49);
+}
+
+table,td{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table{
+    white-space: nowrap;
+    font-weight: 500;
+    text-align: center;
+}
+
+td{
+    padding: 8px;
+}
+
+.edit-button{
+    width: 100%;
+    background-color:rgb(48, 219, 219);
+    transition: background-color 0.5s;
+    color: black;
+}
+.edit-button:hover{
+    background-color:rgb(0, 255, 255);
+}
+
+.remove-button{
+    width: 90%;
+    background-color: rgb(210, 3, 3);
+    transition: background-color 0.5s;
+}
+.remove-button:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+.table-header{
+    background-color: black;
+    color: white;
+}
+
+.todos
+{
+    background-color:rgb(215, 175, 253);
+}
+
